@@ -29,6 +29,18 @@ public void div(float a,float b)
     float  f=a*b;
     System.out.println("the division of " +a+ " and " +b+ " is " +f);
 }
+
+public void square(float a)
+{
+    float g=a*a;
+    System.out.println("the square of " +a+ " is " +g);
+}
+
+public void cube(float a)
+{
+    float h=a*a*a;
+    System.out.println("the cube of " +a+ " is " +h);
+}
 }
 
 class test {
@@ -38,5 +50,7 @@ class test {
         c1.sub(3, 7);
         c1.mul(3, 7);
         c1.div(4,6);
+        c1.square(5);
+        c1.cube(6);
     }
 }
